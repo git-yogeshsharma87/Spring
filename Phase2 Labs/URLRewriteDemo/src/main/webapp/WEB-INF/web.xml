@@ -12,20 +12,20 @@
   
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>LoginServlet</servlet-class>
+    <servlet-class>org.yogesh.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Dashboard</servlet-name>
-    <servlet-class>Dashboard</servlet-class>
+    <servlet-class>org.yogesh.servlet.Dashboard</servlet-class>
   </servlet>
  
   <servlet-mapping>
     <servlet-name>Dashboard</servlet-name>
-    <url-pattern>org.yog.servlet/dashboard</url-pattern>
+    <url-pattern>/dashboard</url-pattern>
   </servlet-mapping>
    <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>
-    <url-pattern>org.yog.servlet/login</url-pattern>
+    <url-pattern>/login</url-pattern>
   </servlet-mapping>
   
 </web-app>
