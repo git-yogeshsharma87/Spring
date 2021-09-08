@@ -8,6 +8,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet Filter implementation class LoginFilter
@@ -40,6 +41,9 @@ public class LoginFilter implements Filter {
 		if(userId != null) {
 		// pass the request along the filter chain
 		chain.doFilter(request, response);
+		} else {
+			HttpServletResponse httpServletResponse = (HttpServletResponse) response;
+			httpServletResponse.sendRedirect("error.html");
 		}
 	}
 
