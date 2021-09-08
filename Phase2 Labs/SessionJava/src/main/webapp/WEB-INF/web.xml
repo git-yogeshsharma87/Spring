@@ -9,4 +9,28 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>CreateSessionServlet</servlet-name>
+  <servlet-class>org.yog.servlet.CreateSession</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  <servlet-name>GetSessionServlet</servlet-name>
+  <servlet-class>org.yog.servlet.GetSession</servlet-class>
+  </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>CreateSessionServlet</servlet-name>
+ <url-pattern>/createSession</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+   <servlet-name>GetSessionServlet</servlet-name>
+ <url-pattern>/getSession</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+  
 </web-app>
