@@ -13,3 +13,12 @@
 0:0:0:0:0:0:0:1 - - [08/Sep/2021:21:18:19 +0530] "GET /lab112-FilterDemo/index.html HTTP/1.1" 404 783
 127.0.0.1 - - [08/Sep/2021:22:00:32 +0530] "GET / HTTP/1.1" 404 751
 0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:00:33 +0530] "GET /lab112-FilterDemo/ HTTP/1.1" 404 773
+127.0.0.1 - - [08/Sep/2021:22:05:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:11 +0530] "GET /lab112-FilterDemo/ HTTP/1.1" 200 399
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:39 +0530] "GET /lab112-FilterDemo/dashboard?userid=johndoe HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:42 +0530] "GET /lab112-FilterDemo/profile?userid=johndoe HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:46 +0530] "GET /lab112-FilterDemo/dashboard HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:46 +0530] "GET /lab112-FilterDemo/error.html HTTP/1.1" 200 154
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:50 +0530] "GET /lab112-FilterDemo/dashboard HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:53 +0530] "GET /lab112-FilterDemo/info HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:22:05:59 +0530] "GET /lab112-FilterDemo/info HTTP/1.1" 200 16
