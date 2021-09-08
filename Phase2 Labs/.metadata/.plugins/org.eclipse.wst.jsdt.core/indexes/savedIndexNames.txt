@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+E:\Programs\Web services\Phase2 Labs\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3236331098.index
+1076176885.index
+2678121069.index
+1569994039.index
+4014708366.index
+1390711093.index
+411394053.index
+4013754035.index
+1348451265.index
