@@ -18,4 +18,40 @@
       <servlet-name>InitializeHibernate</servlet-name>
       <url-pattern>/init</url-pattern>
   </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>GetAllProductsServlet</servlet-name>
+      <servlet-class>com.yog.servlet.GetAllProducts</servlet-class>
+  </servlet>
+
+  
+  <servlet>
+      <servlet-name>NewProduct</servlet-name>
+      <servlet-class>com.yog.servlet.NewProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>NewProduct</servlet-name>
+      <url-pattern>/newProduct</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+      <servlet-name>DeleteProduct</servlet-name>
+      <servlet-class>com.yog.servlet.DeleteProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>DeleteProduct</servlet-name>
+      <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>GetAllProductsServlet</servlet-name>
+      <url-pattern>/all_products</url-pattern>
+  </servlet-mapping>
+    <servlet>
+      <servlet-name>GetProduct</servlet-name>
+      <servlet-class>com.yog.servlet.GetProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>GetProduct</servlet-name>
+      <url-pattern>/getP</url-pattern>
+  </servlet-mapping>
 </web-app>

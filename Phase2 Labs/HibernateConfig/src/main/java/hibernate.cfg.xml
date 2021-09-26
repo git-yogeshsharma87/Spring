@@ -9,5 +9,20 @@
     <property name="connection.url">jdbc:mysql://localhost:3306/ecommerce</property>
     <property name="connection.username">root</property>
     <property name="connection.password">Jsr@30071987</property>
+    
+    
+    <property name = "hibernate.hbm2ddl.auto">update</property>
+    
+    <property name = "show sql">true</property>
+                <mapping class = "com.yog.shop.ProductImageMeta"></mapping>
+    
+    <mapping class = "com.yog.shop.ProductImage"></mapping>
+        <mapping class = "com.yog.shop.Product"></mapping>
+                    <mapping class = "com.yog.shop.Address"></mapping>
+                    <mapping class = "com.yog.shop.Account"></mapping>
+        
+                    <mapping class = "com.yog.shop.User"></mapping>
+        
+    
   </session-factory>
 </hibernate-configuration>
