@@ -1,0 +1,20 @@
+waniazharfarooq@icloud.com
+
+CREATE SCHEMA `studentdb` ;
+
+
+CREATE TABLE `studentdb`.`customers` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `phone` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+
+
+INSERT INTO `studentdb`.`customers` (`name`, `phone`, `email`) VALUES ('vinodh', '1234567890', 'vinodh@pivotal.com');
+INSERT INTO `studentdb`.`customers` (`name`, `phone`, `email`) VALUES ('bhavya', '1234567890', 'bhavya@collins.com');
+INSERT INTO `studentdb`.`customers` (`name`, `phone`, `email`) VALUES ('samarth', '1234567890', 'samarth@google.com');
+
+
+
